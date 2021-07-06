@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.chessdefi.com/',
+        href: 'https://pancakeswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.chessdefi.com/#/pool',
+        href: 'https://pancakeswap.finance//#/pool',
       },
     ],
   },
@@ -53,6 +53,10 @@ const config: MenuEntry[] = [
         label: 'PancakeSwap',
         href: 'https://pancakeswap.info/token/0xe32c2f4065e911ed678c8bee47289a9b3d39f638',
       },
+	    {
+         label: 'Docs',
+         href: 'https://app.gitbook.com/@smokingcucumberfinance/s/smokingcucumber/',
+     },
       // {
       //   label: 'CoinGecko',
       //   href: 'https://www.coingecko.com/en/coins/goose-finance',
@@ -67,24 +71,21 @@ const config: MenuEntry[] = [
       // },
     ],
   },
-  {
-    label: 'More',
+ /*  {
+   label: 'Doc',
     icon: 'MoreIcon',
-    items: [
-      {
+    items: [ 
+      /* {
         label: 'Github',
         href: 'https://github.com/chessfinance/',
-      },
-      // {
-      //   label: 'Docs',
-      //   href: 'https://goosedefi.gitbook.io/goose-finance/',
-      // },
-      {
+      }, 
+     
+     {
         label: 'Blog',
         href: 'https://chessdefi.medium.com/',
-      },
-    ],
-  },
+      }, 
+    ], 
+  }, */
 ]
 
 export default config
