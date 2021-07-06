@@ -26,8 +26,8 @@ const config: MenuEntry[] = [
     href: '/farms',
   },
   {
-    label: 'Checkerboard ',
-    icon: 'CheckerboardIcon',
+    label: 'Pools ',
+    icon: 'PoolIcon',
     href: '/nests',
   },
   // {

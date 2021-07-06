@@ -15,10 +15,10 @@ const FarmTabButtons = ({ stakedOnly, setStakedOnly }) => {
         <Text> {TranslateString(699, 'Staked only')}</Text>
       </ToggleWrapper>
       <ButtonMenu activeIndex={isExact ? 0 : 1} size="sm" variant="subtle">
-        <ButtonMenuItem as={Link} to={`${url}`}>
+        <ButtonMenuItem as={Link} to={`${url}`} style={{ color: '#323531' }}>
           {TranslateString(698, 'Active')}
         </ButtonMenuItem>
-        <ButtonMenuItem as={Link} to={`${url}/history`}>
+        <ButtonMenuItem as={Link} to={`${url}/history`} style={{ color: '#323531' }}>
           {TranslateString(700, 'Inactive')}
         </ButtonMenuItem>
       </ButtonMenu>
