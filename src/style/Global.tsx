@@ -9,7 +9,7 @@ declare module 'styled-components' {
 
 const GlobalStyle = createGlobalStyle`
   * {
-    font-family: 'Boogaloo', sans-serif;
+    font-family: 'Viga', sans-serif;
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};
