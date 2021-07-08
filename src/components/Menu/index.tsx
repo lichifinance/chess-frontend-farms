@@ -25,7 +25,7 @@ const Menu = (props) => {
       /* setLang={setSelectedLanguage} */
       cakePriceUsd={cakePriceUsd.toNumber()}
       links={config}
-      priceLink="https://poocoin.app/tokens/"
+      priceLink="https://poocoin.app/tokens/0xd15d8744528231B1Ef1775A0F4Ff5275E7F74deA"
       {...props}
     />
   )
