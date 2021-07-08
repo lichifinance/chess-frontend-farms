@@ -30,6 +30,11 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/nests',
   },
+   {
+    label: 'Docs',
+    icon: 'InfoIcon',
+    href: 'https://smokingcucumberfinance.gitbook.io/smokingcucumber/',
+  },
   {
     label: 'Twitter',
     icon: 'TwitterIcon',
