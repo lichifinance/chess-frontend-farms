@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://pancakeswap.finance/',
+        href: 'https://pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://pancakeswap.finance//#/pool',
+        href: 'https://pancakeswap.finance/#/pool',
       },
     ],
   },
