@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CCB-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x28953C641619A385fBc907b00Dc51b6FcF2BBb4a', // CHANGE WHEN CCB DEPLOYED
+      56: '', // CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'CCB',
     tokenAddresses: {
       97: '',
-      56: '0xd3dEdbF63c7c0181D0884D4F1029346Eb430ed91', // CHANGE WHEN CCB DEPLOYED
+      56: '0xd15d8744528231B1Ef1775A0F4Ff5275E7F74deA', // CHANGE WHEN CCB DEPLOYED
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CCB-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xb8786E4aE622d6BD398562847fD081A312D6A226', // CHANGE WHEN CCB DEPLOYED
+      56: '', // CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'CCB',
     tokenAddresses: {
       97: '',
-      56: '0xd3dEdbF63c7c0181D0884D4F1029346Eb430ed91', // CHANGE WHEN CCB DEPLOYED
+      56: '0xd15d8744528231B1Ef1775A0F4Ff5275E7F74deA', // CHANGE WHEN CCB DEPLOYED
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -169,12 +169,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CCB',
     lpAddresses: {
       97: '',
-      56: '0x28953C641619A385fBc907b00Dc51b6FcF2BBb4a', // CCB-BUSD LP CHANGE WHEN CCB DEPLOYED
+      56: '', // CCB-BUSD LP CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'CCB',
     tokenAddresses: {
       97: '',
-      56: '0xd3dEdbF63c7c0181D0884D4F1029346Eb430ed91',	// CHANGE WHEN CCB DEPLOYED
+      56: '0xd15d8744528231B1Ef1775A0F4Ff5275E7F74deA',	// CHANGE WHEN CCB DEPLOYED
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -186,7 +186,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x28953C641619A385fBc907b00Dc51b6FcF2BBb4a', // CCB-BUSD LP (BUSD-BUSD will ignore) CHANGE WHEN CCB DEPLOYED
+      56: '', // CCB-BUSD LP (BUSD-BUSD will ignore) CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
