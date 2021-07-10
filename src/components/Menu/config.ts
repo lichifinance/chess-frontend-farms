@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        href: 'https://pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.pancakeswap.finance/#/pool',
+        href: 'https://pancakeswap.finance/#/pool',
       },
     ],
   },
@@ -30,9 +30,9 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: '/nests',
   },
-   {
+  {
     label: 'Docs',
-    icon: 'InfoIcon',
+    icon: 'HelpIcon',
     href: 'https://smokingcucumberfinance.gitbook.io/smokingcucumber/',
   },
   {
@@ -41,10 +41,19 @@ const config: MenuEntry[] = [
     href: 'https://twitter.com/SmokingCucumber',
   },
   {
-    label: 'Telegram',
-    icon: 'TelegramIcon',
-    href: 'https://t.me/SmokingCucumberFinance',
-  },
+    	label: "Telegram",
+        icon: "TelegramIcon",
+		items: [
+            {
+                label: "English",
+                href: "https://t.me/SmokingCucumberFinanceChat",
+            },
+            {
+                label: "Announcement",
+                href: "https://t.me/SmokingCucumberFinance",
+            },
+        ],
+    },
 ]
 
 export default config
