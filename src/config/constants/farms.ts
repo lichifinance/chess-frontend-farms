@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CCB-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '', // CHANGE WHEN CCB DEPLOYED
+      56: '0x2f82e76c90b01279cdac5e1a9170a6864844cf84', // CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'CCB',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CCB-BNB LP',
     lpAddresses: {
       97: '',
-      56: '', // CHANGE WHEN CCB DEPLOYED
+      56: '0x4431a33caA9C020bC8f3eC1B3c2631E47ee93f0B', // CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'CCB',
     tokenAddresses: {
@@ -169,7 +169,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CCB',
     lpAddresses: {
       97: '',
-      56: '', // CCB-BUSD LP CHANGE WHEN CCB DEPLOYED
+      56: '0x2f82e76c90b01279cdac5e1a9170a6864844cf84', // CCB-BUSD LP CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'CCB',
     tokenAddresses: {
@@ -186,7 +186,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '', // CCB-BUSD LP (BUSD-BUSD will ignore) CHANGE WHEN CCB DEPLOYED
+      56: '0x2f82e76c90b01279cdac5e1a9170a6864844cf84', // CCB-BUSD LP (BUSD-BUSD will ignore) CHANGE WHEN CCB DEPLOYED
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
