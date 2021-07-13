@@ -1980,7 +1980,7 @@
 
 "@pancakeswap-libs/uikit@lichifinance/lichi-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/lichifinance/lichi-uikit/tar.gz/9c198e5b1da7f830de5871b62ccb2a54aa41ff85"
+  resolved "https://codeload.github.com/lichifinance/lichi-uikit/tar.gz/17edfeb9a9bf537e965e602b0350e9b30a388ac1"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
