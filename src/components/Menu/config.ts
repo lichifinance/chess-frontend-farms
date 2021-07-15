@@ -31,6 +31,20 @@ const config: MenuEntry[] = [
     href: '/nests',
   },
   {
+    label: "Price Charts",
+    icon: "InfoIcon",
+    items: [
+         {
+            label: "PooCoin Chart",
+            href: "https://poocoin.app/tokens/0xd15d8744528231b1ef1775a0f4ff5275e7f74dea",
+         },
+         {
+            label: "Dex Guru Chart",
+            href: "https://dex.guru/token/0xd15d8744528231b1ef1775a0f4ff5275e7f74dea-bsc",
+         },
+     ],
+  },	
+  {
     label: 'Docs',
     icon: 'HelpIcon',
     href: 'https://smokingcucumberfinance.gitbook.io/smokingcucumber/',
@@ -53,6 +67,11 @@ const config: MenuEntry[] = [
                 href: "https://t.me/SmokingCucumberFinance",
             },
         ],
+    },
+    {
+    	label: 'RugDoc Review',
+    	icon: 'AuditIcon',
+    	href: 'https://rugdoc.io/project/smoking-cucumber/',
     },
 ]
 
